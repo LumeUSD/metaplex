@@ -1,40 +1,35 @@
- # LumE USD (LUSD)
+# LumE USD (LUSD) — SPL Token + Metaplex Metadata
 
-**LumE USD (LUSD)** — это децентрализованный стейблкоин, выпущенный на блокчейне Solana, созданный для надёжных, быстрых и дешёвых транзакций. Подходит для DeFi, Web3-приложений и повседневных платежей.
+**LumE USD (LUSD)** — это стабильный токен, выпущенный на блокчейне Solana, с интеграцией Metaplex Token Metadata. Это делает токен совместимым с Solana-кошельками (например, Phantom), маркетплейсами и экосистемой DeFi.
 
 ---
 
-## Основная информация
+## Основные данные
 
-- **Токен:** LumE USD  
+- **Название:** LumE USD  
 - **Символ:** LUSD  
-- **Сеть:** Solana  
 - **Адрес токена (mint):** `HjHgtmRntsg3wU4aED7PfQ6oFq4XbmMrLjmRAkG5LumE`  
 - **Десятичные знаки:** 8  
-- **Стандарт:** SPL Token  
-- **Тип:** Стейблкоин (Stablecoin)  
-- **Логотип:**  
-  ![LumE Logo](https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa)
+- **Стандарт:** SPL Token + Metaplex Token Metadata  
+- **Тип:** Стейблкоин  
+- **Метаданные URI:**  
+  [https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa](https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa)
 
 ---
 
-## Цели проекта
+## Структура Metaplex Metadata
 
-- Создание прозрачной и надёжной цифровой валюты
-- Интеграция в Solana DeFi и P2P-приложения
-- Масштабируемая платёжная система для международных расчётов
-
----
-
-## Полезные ссылки
-
-- **Twitter:** [@usdlume](https://x.com/usdlume?s=21)  
-- **Telegram:** [@LumeUSD](https://t.me/LumeUSD)  
-- **GitHub:** [LumeUSD GitHub](https://github.com/LumeUSD)  
-- **Логотип (IPFS):** [Ссылка](https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa)
-
----
-
-## Контакты
-
-Если вы хотите интегрировать LUSD или задать вопрос — пишите нам в [Telegram](https://t.me/LumeUSD).
+```json
+{
+  "name": "LumE USD",
+  "symbol": "LUSD",
+  "uri": "https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa",
+  "seller_fee_basis_points": 0,
+  "creators": [
+    {
+      "address": "5uxQEfC5su8SdkCqaVnWQiaDoTgc6PQB8pfRuFeTuPv3",
+      "verified": true,
+      "share": 100
+    }
+  ]
+}
