@@ -1,35 +1,40 @@
-# LumE USD (LUSD) — SPL Token + Metaplex Metadata
+# LumE USD (LUSD)
 
-**LumE USD (LUSD)** — это стабильный токен, выпущенный на блокчейне Solana, с интеграцией Metaplex Token Metadata. Это делает токен совместимым с Solana-кошельками (например, Phantom), маркетплейсами и экосистемой DeFi.
+**LumE USD (LUSD)** — это стабильный токен, выпущенный на блокчейне Solana. Он создан для обеспечения быстрой, безопасной и масштабируемой цифровой экономики.
 
 ---
 
-## Основные данные
+## Основная информация
 
 - **Название:** LumE USD  
 - **Символ:** LUSD  
-- **Адрес токена (mint):** `HjHgtmRntsg3wU4aED7PfQ6oFq4XbmMrLjmRAkG5LumE`  
-- **Десятичные знаки:** 8  
-- **Стандарт:** SPL Token + Metaplex Token Metadata  
-- **Тип:** Стейблкоин  
-- **Метаданные URI:**  
-  [https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa](https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa)
+- **Сеть:** Solana  
+- **Адрес токена:** `HjHgtmRntsg3wU4aED7PfQ6oFq4XbmMrLjmRAkG5LumE`  
+- **Знаков после запятой:** 8  
+- **Тип:** Stablecoin  
+- **Логотип:**  
+  ![LumE USD Logo](https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa)
 
 ---
 
-## Структура Metaplex Metadata
+## Социальные сети и ссылки
 
-```json
-{
-  "name": "LumE USD",
-  "symbol": "LUSD",
-  "uri": "https://gateway.pinata.cloud/ipfs/bafybeifqn76mz2ctuzludo6uv4v5wm76zjc6oinfg7ez2sqpuk5ig6rzaa",
-  "seller_fee_basis_points": 0,
-  "creators": [
-    {
-      "address": "5uxQEfC5su8SdkCqaVnWQiaDoTgc6PQB8pfRuFeTuPv3",
-      "verified": true,
-      "share": 100
-    }
-  ]
-}
+- **Telegram:** [@LumeUSD](https://t.me/LumeUSD)  
+- **Twitter (X):** [@usdlume](https://x.com/usdlume)  
+- **GitHub:** [LumeUSD](https://github.com/LumeUSD)  
+
+---
+
+## Цели проекта
+
+- Создание прозрачной и быстрой платёжной системы на базе Solana
+- Интеграция с DeFi, P2P-обменами и Web3-приложениями
+- Поддержка разработчиков и стартапов, использующих LUSD в экосистеме
+
+---
+
+## Контакт
+
+Для партнёрств и поддержки:  
+**Email:** lumeusd@proton.me  
+или [напишите нам в Telegram](https://t.me/LumeUSD)
